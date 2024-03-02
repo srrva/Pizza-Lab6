@@ -4,7 +4,7 @@ import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
-public class PizzaGUIForm extends JFrame {
+public class PizzaGUIFrame extends JFrame {
 
     JPanel mainPanel;
     JPanel crustPanel;
@@ -31,7 +31,7 @@ public class PizzaGUIForm extends JFrame {
     JButton clearButton;
     JButton quitButton;
 
-    public PizzaGUIForm(){
+    public PizzaGUIFrame(){
         mainPanel = new JPanel();
         crustPanel = new JPanel();
         createCrustPanel();
@@ -282,4 +282,3 @@ public class PizzaGUIForm extends JFrame {
             System.exit(0);
         }
     }
-}
